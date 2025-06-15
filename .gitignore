@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Keep the following
+!.gitignore
+!marketing-collateral.zip
+!README.md
+!sample-datasets-for-pbi.xlsx
+!Waggle Dashboard.pbix
