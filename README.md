@@ -19,24 +19,32 @@ Waggle stakeholders are asking key questions to evaluate the impact and market p
 
 **From the Product Team:** They are especially interested in demographic insights related to pets and families.
 
+**Design & Usability Requirements:** The report also needed to meet Waggle’s design standards:
+
+- A branded header on each page, showing the page title and Waggle logo
+- Slicers positioned on the left or beneath the banner to filter visuals
+- Navigation buttons placed consistently for ease of use
+- Only Waggle-approved palette colors (plus black, white, and gray tones)
+- One reset button per page to clear filters
+- Buttons for page-to-page navigation
+
 ## Report Structure
 
 ***Key Features***
 
-- All visuals use the Waggle-approved color palette.
-- Buttons for navigation, dynamic visuals swapping and filter reset to enhance interaction.
-- Built-in slicers and filters for stakeholder exploration.
-- Drill-through capability for detailed investigation.
+- Waggle-branded theme and layout for consistency
+- Dynamic visual swapping for comparing trends
+- Filter reset and drill-through functionality
+- Built-in slicers for stakeholder exploration
+- Used the same colors for dogs and cats across all pages to make comparisons easy and intuitive.
 
 ### Page 1: Lapdog vs Lapcat (Home)
 
-This page directly addresses the CEO’s questions.
+This page directly addresses the CEO’s questions with side-by-side compareisons:
 
-Visual comparisons:
-
-- Average daily step count by device type
-- Average satisfaction ratings
-- Step trends over time
+- Average daily step count and satisfaction ratings by device
+- Step trends over time by species
+- Activity minutes and daily steps by month/year
 
 ### Page 2: Pets Summary
 
