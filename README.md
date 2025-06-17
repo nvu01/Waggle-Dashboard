@@ -4,46 +4,58 @@ This Power BI report analyzes user and pet data from Waggle, a pet-tech startup 
 Following the success of the Lapdog fitness collar for dogs, Waggle launched a field test of its feline counterpart, the Lapcat. 
 This dashboard helps stakeholders understand how the new device is performing and whether it justifies further development.
 
+## Datasets Overview
+
+The data used in this project was provided by Udacity as part of their Data Analyst Nanodegree Program. 
+The datasets were already cleaned and curated to simulate real-world business scenarios, allowing me to focus on analysis, visualization, and stakeholder communication.
+
 ## Business Requirements
 
-CEO's Key Questions:
-- Did the average daily steps increase for cats wearing Lapcat, similar to dogs with Lapdog?
-- Were Lapcat owners as satisfied with the product as Lapdog owners?
+Waggle stakeholders are asking key questions to evaluate the impact and market potential of LapCat:
 
-Product Team Expectations:
-The product team trusts the analyst to incorporate additional insights and visualizations as needed, but is especially interested in:
-- Demographic comparisons between dogs and cats using Waggle devices
-- Insights about the families who own the pets
+**From the CEO:**
+- Did the average daily steps increase for cats wearing the device, as they did for dogs?
+- Were owners of Lapcat devices as satisfied with the product as Lapdog owners?
+
+**From the Product Team:** They are especially interested in demographic insights related to pets and families.
 
 ## Report Structure
 
+***Key Features***
+
+- All visuals use the Waggle-approved color palette.
+- Buttons for navigation, dynamic visuals swapping and filter reset to enhance interaction.
+- Built-in slicers and filters for stakeholder exploration.
+- Drill-through capability for detailed investigation.
+
 ### Page 1: Lapdog vs Lapcat (Home)
 
-Directly addresses CEO’s questions
+This page directly addresses the CEO’s questions.
 
 Visual comparisons:
+
 - Average daily step count by device type
-- Average user satisfaction ratings
-- Average daily step count over time
+- Average satisfaction ratings
+- Step trends over time
 
 ### Page 2: Pets Summary
 
-- Pet demographics: species, breed, age, weight, activity levels
-- Step count and activity minutes by age group
+- Demographics of Waggle pets: species, breed, age, weight.
+- Activity breakdown: steps and active minutes by age group.
 
 ### Page 3: Family Summary
 
-- Owner demographics: location, household type
-- Household characteristics and pet ownership patterns
+- Owner location, household size, and income demographics.
+- Visuals show patterns in household types and pet ownership.
 
 #### Page 4: Family Details
 
-- Drill-through page for in-depth analysis of individual households. Accessed via right-click from Family Summary table visual
-- Displays detailed data on specific pets and their owners
+- This is a detailed view of individual households and their pets. This page is accessed by right-clicking entries from the table visual on Page 3.
+- Supports deeper insights into user-level data.
 
 ## Project Files
 
-- `Waggle Dashboard.pbix` — Main Power BI report
+- `Waggle Report.pbix` — Main Power BI report
 - `sample-datasets-for-pbi.xlsx` — Cleaned datasets used for visualizations
 - `marketing-collateral.zip` — Brand assets and presentation materials
 
